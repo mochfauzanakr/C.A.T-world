@@ -4,33 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CAT world</title>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
     <link rel="stylesheet" href="../src/output.css">
     <link rel="stylesheet" href="../src/font/font.css">
 </head>
 <body>
-    <nav class="w-full bg-[#FFC49B] flex items-center gap-8 py-2 h-[20%]">
+    <nav class="w-full bg-[#FFC49B] flex items-center gap-8 py-2 h-[25%] sticky top-0">
         <a href="#">
         <div class="ml-4 flex items-center gap-4 border-black">
-            <img class="w-10" src="../src/img/logo web.png" alt="">
+            <img class="w-12" src="../src/img/logo web.png" alt="">
             <p class="font-jaro text-2xl">CAT world</p>
         </div>
         </a>
-            <ul class="flex pl-[43%] gap-12 font-jaro text-xl">
-                <li class="cursor-pointer" >
-                Region
-                </li>
+        <div class="flex gap-2 justify-end pl-[38%] gap-6 items-center">
+                <ul class="gap-8 flex font-jaro text-2xl">
+                    <li class="cursor-pointer flex items-center gap-2" >
+                        <p>Region</p>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </li>
                 
-                <li class="cursor-pointer">
-                Characteristic
-                </li>
-            </ul>
-        <div class="flex items-center bg-white h-[100%] gap-2">
-            <img class="w-4 h-4" src="../src/img/search n.png" alt="">
-            <input class="outline-none h-8" id="search" type="search" placeholder="">
+                    <li class="cursor-pointer flex gap-2 items-center">
+                    <p>Characteristic</p>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </li>
+                </ul>
+                <div class="flex items-center bg-white h-[100%] gap-2">
+                    <img class="w-4 h-4" src="../src/img/search n.png" alt="">
+                    <input class="outline-none h-8" id="search" type="search" placeholder="">
+                </div>
+                <button id="">
+                    <img class="w-10" src="../src/img/color mode.png" alt="">
+                </button>
         </div>
-
-        <img class="w-10" src="../src/img/color mode.png.png" alt="">
     </nav>
 
 </body>
