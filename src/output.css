@@ -164,14 +164,23 @@
   }
 }
 @layer utilities {
-  .static {
-    position: static;
+  .relative {
+    position: relative;
   }
-  .mx-6 {
-    margin-inline: calc(var(--spacing) * 6);
+  .sticky {
+    position: sticky;
+  }
+  .top-0 {
+    top: calc(var(--spacing) * 0);
+  }
+  .mr-10 {
+    margin-right: calc(var(--spacing) * 10);
   }
   .ml-4 {
     margin-left: calc(var(--spacing) * 4);
+  }
+  .ml-10 {
+    margin-left: calc(var(--spacing) * 10);
   }
   .flex {
     display: flex;
@@ -185,8 +194,17 @@
   .h-8 {
     height: calc(var(--spacing) * 8);
   }
+  .h-26 {
+    height: calc(var(--spacing) * 26);
+  }
   .h-\[20\%\] {
     height: 20%;
+  }
+  .h-\[23\%\] {
+    height: 23%;
+  }
+  .h-\[25\%\] {
+    height: 25%;
   }
   .h-\[100\%\] {
     height: 100%;
@@ -196,6 +214,21 @@
   }
   .w-10 {
     width: calc(var(--spacing) * 10);
+  }
+  .w-12 {
+    width: calc(var(--spacing) * 12);
+  }
+  .w-14 {
+    width: calc(var(--spacing) * 14);
+  }
+  .w-20 {
+    width: calc(var(--spacing) * 20);
+  }
+  .w-25 {
+    width: calc(var(--spacing) * 25);
+  }
+  .w-26 {
+    width: calc(var(--spacing) * 26);
   }
   .w-full {
     width: 100%;
@@ -212,11 +245,23 @@
   .items-center {
     align-items: center;
   }
+  .justify-end {
+    justify-content: flex-end;
+  }
+  .justify-start {
+    justify-content: flex-start;
+  }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
   }
   .gap-4 {
     gap: calc(var(--spacing) * 4);
+  }
+  .gap-5 {
+    gap: calc(var(--spacing) * 5);
+  }
+  .gap-6 {
+    gap: calc(var(--spacing) * 6);
   }
   .gap-8 {
     gap: calc(var(--spacing) * 8);
@@ -240,8 +285,29 @@
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
   }
-  .pl-\[43\%\] {
-    padding-left: 43%;
+  .pl-5 {
+    padding-left: calc(var(--spacing) * 5);
+  }
+  .pl-15 {
+    padding-left: calc(var(--spacing) * 15);
+  }
+  .pl-\[4\%\] {
+    padding-left: 4%;
+  }
+  .pl-\[36\%\] {
+    padding-left: 36%;
+  }
+  .pl-\[38\%\] {
+    padding-left: 38%;
+  }
+  .pl-\[40\%\] {
+    padding-left: 40%;
+  }
+  .pl-\[41\%\] {
+    padding-left: 41%;
+  }
+  .pl-\[42\%\] {
+    padding-left: 42%;
   }
   .text-2xl {
     font-size: var(--text-2xl);
